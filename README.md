@@ -30,7 +30,7 @@ benchmark folder contains 3 kinds of design, arithmetic circuit, digital circuit
 ## Enviroment establishment
 1. Establish the python environment
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 2. You need to install `iverilog` package from [here](https://bleyer.org/icarus/) to establish the testing environment.
 3. Use your own openai api keys in `benchmark_exp/llm_generate_code.py`, `src/llm_complete_code.py`, `benchmark_exp/llm_predict_token.py`. We recommend you use 2 api keys here to overcome the api limitations. 
